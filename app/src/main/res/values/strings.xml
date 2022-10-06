@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">kuis_2125250059</string>
+
+    <string-array name="kota">
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Brunei</item>
+        <item>Laos</item>
+        <item>Thailand</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity1"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_palembang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PALEMBANG\nWATER"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv_kualitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menyediakan air bersih, sehat dan terjaga kualitasnya"
+        app:layout_constraintTop_toBottomOf="@+id/tv_palembang"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sign"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SIGN UP"
+        app:layout_constraintTop_toBottomOf="@+id/tv_kualitas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="17sp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#172BD5"
+        app:cornerRadius="13dp"
+
+    />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LOG IN"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="17sp"
+        android:layout_marginTop="25dp"
+        app:cornerRadius="13dp"
+        android:textColor="#FF172BD5"
+        android:backgroundTint="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv_visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit us"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        android:layout_marginTop="75dp"
+        android:textSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_website"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="WWW.PALEMBANG.GO.ID"
+        app:layout_constraintTop_toBottomOf="@+id/tv_visit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="17sp"
+        android:layout_marginTop="25dp"
+        app:cornerRadius="13dp"
+        android:textColor="#FF172BD5"
+        android:backgroundTint="@color/white"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
